@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400&family=Bellefair&display=swap');
+
+@layer components {
+  .navitem {
+    @apply flex gap-2 font-others tracking-widest text-lg h-full items-center ml-10 cursor-pointer lg:first:ml-24
+  }
+  .navlinks {
+    @apply hidden md:flex lg:flex lg:gap-0 h-28 w-3/5 ml-auto items-center bg-[#7d7979]/[.3] backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.1)] 
+  }
+  .navbar {
+    @apply flex bg-transparent items-center w-full fixed pt-8 md:mt-0 lg:mt-10 pl-10 text-white
+  }
+  .mobilenav {
+    @apply md:hidden h-[100vh] w-2/3 absolute top-0 right-0 bg-[#7d7979]/[.3] backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.1)]
+  }
+}
+
