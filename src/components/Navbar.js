@@ -16,12 +16,12 @@ const navItems = [
     {
         number:'02',
         text: 'CREW',
-        path: '/crew'
+        path: '/crew/douglas'
     },
     {
         number: '03',
         text: 'TECHNOLOGY',
-        path: '/technology'
+        path: '/technology/launch'
     },
 ];
 
@@ -31,7 +31,7 @@ export default function Navbar() {
 
   return (
         <nav className='navbar'>
-                <div className='px-20'>
+                <div className='md:px-20'>
                     <img src={logo} alt="logo" />
                 </div>
                 <span className='h-[1px] w-[30%] absolute left-52 bg-slate-600 z-10 hidden lg:block'></span>

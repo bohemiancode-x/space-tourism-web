@@ -12,10 +12,13 @@
     @apply hidden md:flex lg:flex lg:gap-0 h-28 w-3/5 ml-auto items-center bg-[#7d7979]/[.3] backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.1)] 
   }
   .navbar {
-    @apply flex bg-transparent items-center w-full fixed pt-8 md:mt-0 lg:mt-10 pl-10 text-white
+    @apply flex bg-transparent items-center w-full fixed pt-4 md:pt-8 md:mt-0 lg:mt-10 pl-10 text-white
   }
   .mobilenav {
-    @apply md:hidden h-[100vh] w-2/3 absolute top-0 right-0 bg-[#7d7979]/[.3] backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.1)]
+    @apply md:hidden h-[100vh] w-2/3 z-10 absolute top-0 right-0 bg-[#7d7979]/[.3] backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.1)]
+  }
+  .splinks {
+    @apply text-2xl font-body flex justify-center items-center h-16 w-16 border-white/[0.5] border-[1px] rounded-full text-center
   }
 }
 

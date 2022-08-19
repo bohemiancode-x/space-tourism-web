@@ -38,9 +38,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/crew/*" element={<Crew />} />
+          <Route path="/crew/*" element={<Crew data={data} isPending={isPending} />} />
           <Route path="/destination/*" element={<Destination data={data} isPending={isPending} />} />
-          <Route path="/technology/*" element={<Technology />} />
+          <Route path="/technology/*" element={<Technology data={data} isPending={isPending} />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>

@@ -1,4 +1,4 @@
-import homebg from '../../assets/home/background-home-desktop.jpg'
+import {Link} from "react-router-dom"
 
 
 export default function home() {
@@ -12,7 +12,7 @@ export default function home() {
                     Let's face it; if you want to go to space, you might as well <br className='hidden md:block'/> genuinely go to outer space and not hover kind of on the <br className='hidden md:block'/> edge of it. Well sit back, and relax because we'll give you a <br className='hidden md:block' /> truly out of this world experience!
                 </p>
             </div>
-            <button className='lg:ml-auto md:mt-20 text-black bg-white lg:w-[19rem] lg:h-[19rem] w-[16rem] h-[16rem] text-4xl font-body rounded-full mt-32'>EXPLORE</button>
+            <Link to='/destination/moon' className='lg:ml-auto md:mt-20 text-black bg-white lg:w-[19rem] lg:h-[19rem] w-[16rem] h-[16rem] text-4xl font-body rounded-full mt-32 items-center flex justify-center'>EXPLORE</Link>
         </div>
     </div>
   )

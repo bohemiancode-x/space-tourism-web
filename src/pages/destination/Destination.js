@@ -12,7 +12,7 @@ export default function Destination(props) {
   const isPending = props.isPending;
   const location = useLocation();
 
-  console.log(data);
+  //console.log(data);
   const destinations = [
     {
       text: 'MOON',
@@ -35,7 +35,7 @@ export default function Destination(props) {
 
   return (
     <div className='bg-destinationmobile md:bg-destinationtablet lg:bg-destinationdesktop bg-cover h-[100vh] text-white'>
-        <div className='pt-[18%] md:pt-[22%] flex flex-col items-center lg:items-start lg:flex-row'>
+        <div className='pt-[20%] md:pt-[22%] flex flex-col items-center lg:items-start lg:flex-row'>
           <div className='flex gap-3 text-2xl lg:ml-32'>
             <span className='font-others tracking-widest opacity-50'>01</span>
             <h3 className='font-others tracking-widest'>PICK YOUR DESTINATION</h3>
@@ -43,7 +43,7 @@ export default function Destination(props) {
 
           <ul className='flex lg:gap-0 h-16 lg:w-3/5 lg:ml-auto lg:mt-16 items-center'>
             {destinations.map((nav) => (
-                        <Link key={nav.text} className={location.pathname == nav.path ? 'navitem border-b-4 border-white' : 'navitem'} to={nav.path}>
+                        <Link key={nav.text} className={location.pathname === nav.path ? 'navitem border-b-4 border-white' : 'navitem'} to={nav.path}>
                             {nav.text}
                         </Link>
                     ))}
