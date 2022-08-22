@@ -6,7 +6,7 @@ export default function Moon({data}) {
     <div>
       <div className='flex lg:flex-row flex-col items-center mt-10 lg:mt-0 lg:px-20 lg:gap-20 gap-8'>
         <div>
-          <img className='h-[15rem] md:h-[20rem] lg:h-[100%]' src={Moonimage} alt="moon" />
+          <img className='h-[15rem] md:h-[20rem] lg:h-[100%] xl:ml-20' src={Moonimage} alt="moon" />
         </div>
 
         <div className='text-center lg:text-start lg:px-20 lg:pt-0 lg:w-1/2 w-3/4'>
