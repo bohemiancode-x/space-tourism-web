@@ -4,7 +4,7 @@ import Marsimage from '../../assets/destination/image-mars.png'
 export default function Mars({data}) {
   return (
     <div>
-      <div className='flex lg:flex-row flex-col items-center mt-10 lg:px-20 lg:gap-20 gap-8'>
+      <div className='flex lg:flex-row flex-col items-center mt-10 lg:mt-0 lg:px-20 lg:gap-20 gap-8'>
         <div>
           <img className='h-[15rem] md:h-[20rem] lg:h-[100%]' src={Marsimage} alt="mars" />
         </div>

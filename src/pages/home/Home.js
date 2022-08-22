@@ -3,8 +3,8 @@ import {Link} from "react-router-dom"
 
 export default function home() {
   return (
-    <div className='lg:bg-homedesktop md:bg-hometablet bg-homemobile bg-cover h-[100vh] text-white'>
-        <div className='lg:pt-[30%] md:pt-[25%] p-32 flex flex-col lg:flex-row items-center'>
+    <div className='lg:bg-homedesktop md:bg-hometablet bg-homemobile bg-cover h-[100%] xl:h-[100vh] text-white'>
+        <div className='md:pt-[25%] p-32 flex flex-col lg:flex-row items-center'>
             <div className='flex flex-col lg:gap-5 gap-5 items-center'>
                 <h3 className='font-others tracking-widest lg:text-4xl text-xl text-two'>SO, YOU WANT TO TRAVEL TO</h3>
                 <h1 className='font-body md:text-[10rem] text-8xl'>SPACE</h1>

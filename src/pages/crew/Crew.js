@@ -33,14 +33,14 @@ export default function Crew(props) {
 
 
   return (
-    <div className='bg-crewmobile md:bg-crewtablet lg:bg-crewdesktop bg-cover h-[100vh] text-white'>
-      <div className='pt-[24%] md:pt-[20%] flex flex-col items-center md:items-start'>
+    <div className='bg-crewmobile md:bg-crewtablet lg:bg-crewdesktop bg-cover h-[100%] xl:h-[100vh] text-white'>
+      <div className='pt-[24%] md:pt-[20%] lg:pt-[16%] flex flex-col items-center md:items-start'>
         <div className='flex gap-3 text-2xl md:ml-12 lg:ml-32'>
           <span className='font-others tracking-widest opacity-50'>02</span>
           <h2 className='font-others tracking-widest'>MEET YOUR CREW</h2>
         </div>
 
-        <div className='lg:absolute left-[24rem] md:ml-auto lg:bottom-20 lg:left-32 md:pr-10 pt-5 md:pt-0'>
+        <div className='lg:absolute left-[24rem] md:ml-auto lg:bottom-10 lg:left-32 md:pr-10 pt-5 md:pt-0'>
           <ul className='flex gap-5 items-center'>
               {links.map((nav) => (
                           <Link key={nav.number} className={location.pathname === nav.path ? 'lg:h-6 lg:w-6 h-3 w-3 rounded-full bg-white': 'lg:h-6 lg:w-6 h-3 w-3 rounded-full bg-slate-500'} to={nav.path} ></Link>

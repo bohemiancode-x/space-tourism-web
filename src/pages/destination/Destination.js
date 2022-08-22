@@ -34,8 +34,8 @@ export default function Destination(props) {
   
 
   return (
-    <div className='bg-destinationmobile md:bg-destinationtablet lg:bg-destinationdesktop bg-cover h-[100vh] text-white'>
-        <div className='pt-[20%] md:pt-[22%] flex flex-col items-center lg:items-start lg:flex-row'>
+    <div className='bg-destinationmobile md:bg-destinationtablet lg:bg-destinationdesktop bg-cover h-[100%] xl:h-[100vh] text-white'>
+        <div className='pt-[20%] md:pt-[18%] flex flex-col items-center lg:items-start lg:flex-row'>
           <div className='flex gap-3 text-2xl lg:ml-32'>
             <span className='font-others tracking-widest opacity-50'>01</span>
             <h3 className='font-others tracking-widest'>PICK YOUR DESTINATION</h3>
